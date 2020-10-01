@@ -17,16 +17,18 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>无脑码农的博客</title>
+  <title>友情链接 | 无脑码农的博客</title>
   <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://mainlei.github.io/index.html">
+<meta property="og:title" content="友情链接">
+<meta property="og:url" content="http://mainlei.github.io/links/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-10-01T14:31:15.637Z">
+<meta property="article:modified_time" content="2020-10-01T14:31:15.636Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://mainlei.github.io/index.html">
+  <link rel="canonical" href="http://mainlei.github.io/links/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -43,7 +45,7 @@
 <meta name="generator" content="Hexo 5.2.0"></head>
 
 
-<body class="main-center theme-green" itemscope itemtype="http://schema.org/WebPage">
+<body class="main-center theme-green no-sidebar" itemscope itemtype="http://schema.org/WebPage">
   <header class="header" itemscope itemtype="http://schema.org/WPHeader">
   <div class="slimContent">
     <div class="navbar-header">
@@ -259,66 +261,30 @@
 
   
   <main class="main" role="main">
-  
-  <div class="content article-list">
-    
-      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="article-header">
-    
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/10/01/2020%E5%B9%B410%E6%9C%881%E6%97%A5%E5%9B%BD%E5%BA%86%E8%8A%82/">2020年10月1日国庆节</a>
-    </h1>
-  
-
+  <article class="article article-links article-type-list" itemscope="">
+  <header class="article-header">
+    <h1 itemprop="title">友情链接</h1>
+    <p class="text-muted">
+      欢迎交换链接，可在当前页面留言
+    </p>
+  </header>
+  <div class="article-body">
+    <div class="row">
+      
+    </div>
   </div>
-  
-  <p class="article-meta">
-    <span class="article-date">
-    <i class="icon icon-calendar-check"></i>
-	<a href="/2020/10/01/2020%E5%B9%B410%E6%9C%881%E6%97%A5%E5%9B%BD%E5%BA%86%E8%8A%82/" class="article-date">
-	  <time datetime="2020-10-01T10:09:15.000Z" itemprop="datePublished">10月 1</time>
-	</a>
-</span>
-    
-    
-
-    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2020/10/01/2020%E5%B9%B410%E6%9C%881%E6%97%A5%E5%9B%BD%E5%BA%86%E8%8A%82/#comments" class="article-comment-link">评论</a></span>
-    
-  </p>
 </article>
 
-    
-      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="article-header">
-    
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/10/01/hello-world/">Hello World</a>
-    </h1>
-  
-
-  </div>
-  
-  <p class="article-meta">
-    <span class="article-date">
-    <i class="icon icon-calendar-check"></i>
-	<a href="/2020/10/01/hello-world/" class="article-date">
-	  <time datetime="2020-10-01T06:22:36.844Z" itemprop="datePublished">10月 1</time>
-	</a>
-</span>
+  <section id="comments">
+  	
+      <div id="vcomments"></div>
     
-    
+  </section>
 
-    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2020/10/01/hello-world/#comments" class="article-comment-link">评论</a></span>
-    
-  </p>
-</article>
 
-    
-  </div>
 
-   
+
 </main>
 
   <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
@@ -374,11 +340,32 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
 
+
    
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/valine"></script>
+  <script type="text/javascript">
+  var GUEST = ['nick', 'mail', 'link'];
+  var meta = 'nick,mail,link';
+  meta = meta.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#vcomments',
+    verify: false,
+    notify: false,
+    appId: '',
+    appKey: '',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: meta,
+    pageSize: '10' || 10,
+    visitor: false
+  });
+  </script>
 
-
-
+     
 
 
 
